@@ -22,10 +22,8 @@ sudo systemctl status mongod
 sudo systemctl enable mongod
 
 #setup mogo
-mongo
-use explorerdb
-db.createUser( { user: "eiquidus", pwd: "Nd^p2d77ceBX!L", roles: [ "readWrite" ] } )
-exit
+wget 
+mongo --host="127.0.0.1:27020" explorerdb mongo.js
 
 
 #clone explorer
