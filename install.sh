@@ -22,7 +22,7 @@ sudo systemctl status mongod
 sudo systemctl enable mongod
 
 #setup mogo
-wget 
+wget https://raw.githubusercontent.com/AzrelixJ/explorer/main/mongo.js
 mongo --host="127.0.0.1:27020" explorerdb mongo.js
 
 
