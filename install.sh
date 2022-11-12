@@ -23,7 +23,7 @@ sudo systemctl enable mongod
 
 #setup mogo
 wget https://raw.githubusercontent.com/AzrelixJ/explorer/main/mongo.js
-mongo --host="127.0.0.1:27020" explorerdb mongo.js
+mongo --host="127.0.0.1:27017" explorerdb mongo.js
 
 
 #clone explorer
