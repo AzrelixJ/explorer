@@ -27,6 +27,7 @@ cd explorer
 npm install --only=prod
 
 #setup mogo
+cd ~
 wget https://raw.githubusercontent.com/AzrelixJ/explorer/main/mongo.js
 mongo --host="127.0.0.1:27017" explorerdb mongo.js
 
