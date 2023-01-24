@@ -31,7 +31,7 @@ wget https://raw.githubusercontent.com/AzrelixJ/explorer/main/mongo.js
 mongo --host="127.0.0.1:27017" explorerdb mongo.js
 
 #copy explorer settings from template
-cd ~./explorer
+cd ~/explorer
 cp ./settings.json.template ./settings.json
 
 cd ~
