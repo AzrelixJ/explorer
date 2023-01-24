@@ -34,3 +34,7 @@ mongo --host="127.0.0.1:27017" explorerdb mongo.js
 cd ~./explorer
 cp ./settings.json.template ./settings.json
 
+cd ~
+rm mongo.js
+rm install.sh
+
